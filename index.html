@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lomato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: whitesmoke;
+            
+            
+        }
+        
+        .navbar {position: fixed;
+            text-align: center;
+            
+            background-color: rgb(20, 24, 24);
+            display: grid;
+            grid-template-columns: repeat(11, 1fr);
+            padding: 10px;
+           width: 100%;
+            margin: 0px;
+            z-index: 1;
+            border-radius: 2rem;
+            gap: 0rem 1rem;
+
+        }
+        .navbar
+        .navbar button{
+            border-radius: 20px;
+            height: auto;
+            font-weight: bold;
+            font-family: cursive;
+            
+            
+        }
+        .navbar button:hover{
+            background-color: rgb(180, 173, 173);
+            text-align: center;
+            transform: scale(1.2) ;
+            transition-duration: 0.3s;
+            
+
+        }
+        .nav:hover{
+            transform: scale(1.2);
+            transition-duration: 0.3s; 
+            background-color: rgb(37, 36, 36);          
+        }
+
+        .mid {padding: 5% 2% 6% 2%;  
+            display: grid;
+            gap: 2rem 0rem;
+            margin:0% 5%;
+            
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+        .indian{
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            border-radius: 20px;
+        }
+        .japanese{
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            border-radius: 20px;
+        }
+        .italian{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            
+        }
+        .indian:hover{
+            transform: scale(1.02);
+            cursor: pointer;
+            transition-duration: 0.3s;
+        }
+        .italian:hover{
+            transform: scale(1.02);
+            cursor: pointer;
+            transition-duration: 0.3s;
+        }
+        .japanese:hover{
+            transform: scale(1.02);
+            cursor: pointer;
+            transition-duration: 0.3s;
+        }
+        
+        .cuisine{
+            
+            background-color: white;
+            box-shadow: 5px 5px;
+            border-radius: 10px;
+          
+           
+        }
+        #cuisine1{
+            background-image: url('../foodservice/indian\ cuisine.jpg');
+            background-size: cover;
+        }
+        #cuisine2{
+            grid-column-start: 2;
+            grid-column-end:5;
+         font-size: 2rem;
+            
+            text-align: center;
+            font-weight: bold;
+            
+        }
+        #cuisine3{
+            grid-column-start: 1;
+            grid-column-end:4;
+            font-size: 2rem;
+            
+            text-align: center;
+            font-weight: bold;
+        }
+        #cuisine4{
+            background-image: url('../foodservice/pizza.webp');
+            background-size: cover;}
+        #cuisine5{
+            background-image: url('../foodservice/japanese\ cuisine.jpg');
+            background-size: cover;
+        }
+        
+        #cuisine6{
+            grid-column-start: 2;
+            grid-column-end:5;
+            font-size: 2rem;
+            
+            text-align: center;
+            font-weight: bold;
+
+        }
+    
+
+    
+        .beforemid{
+            display: grid;
+            grid-template-columns: 1fr 4fr;
+            padding: 68px 40px;
+           
+            color: black;
+            font-size: 35px;
+            font-weight: bold;
+            margin: 0px;
+            position: relative;
+           
+           
+
+         
+
+        }
+        .beforemid:after{ background-image: url('../foodservice/pattern1.webp');
+            background-size: cover;
+            position: absolute;
+            content: '';
+            background-size: 100%;
+            inset: 0;
+            opacity: 0.1;
+            z-index: -1;
+          
+
+        }
+        #beforemid2{
+            text-align: center;
+            font-family: 'Baloo 2', cursive;
+        }
+        #color1{background-color: rgb(12, 4, 4);
+        height: 0.25em;
+  
+}
+       
+.mainmid{
+    position: relative;
+    margin: 0px;
+   
+}
+        .mainmid::after {
+            content: '';
+            background-image: url('../foodservice/background.jpg');
+            position: absolute;
+            inset: 0;
+            background-size: 100%;
+            z-index: -1;
+            opacity: 0.7;
+        }
+        .cuisine1{
+            background-color: rgba(240, 248, 255, 0.599);
+        }
+
+        .end{
+            background-color: black;
+            color: aliceblue;
+            font-size: 1rem;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            text-decoration: wavy;
+            height: 6em;
+            font-family: 'Baloo 2', cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav">
+            <a href="#"> home </a>
+        </div>
+        <div class="nav">
+            <a href="#">services </a>
+        </div>
+        <div  class="nav">
+            <a href="#">contact us </a>
+        </div>
+        <div class="blank"></div>
+        <div class="blank"></div>
+        <div class="blank"></div>
+        <div class="blank"></div>
+        <div class="blank"></div>
+        <div class="blank"></div>
+        <button> sign up
+        
+        </button>
+    </div>
+    <div class="premid">
+        <div class="beforemid">
+            <div id="beforemid1"> <img src="../foodservice/chef-removebg-preview.png" alt=""> </div>
+            <div id="beforemid2">One stop destination for all your cravings of Indian ,Italian and Japanese cuisine. <br> <br>
+                <strong>LOMATO  :  The Taste Of India </strong> </div> 
+        </div>
+        <div id="color1"></div>
+        <div id="color2"></div>
+        <div id="color3"></div>
+    <div class="mainmid">
+
+        <div class="mid">
+            <div class="indian">
+
+                <div id="cuisine1" class="cuisine" ></div>
+               
+                <div id="cuisine2" class="cuisine"> <br>  Welcome to our Indian restaurant! <br> Our menu is a celebration of the rich and diverse flavors of India </div>
+            </div>
+            <div class="italian">
+
+                <div id="cuisine3" class="cuisine" > <br> Italian cuisine is known for its rich flavors, fresh ingredients, and simple yet elegant preparations.</div>
+               
+                <div id="cuisine4" class="cuisine"> </div>
+            </div>
+            <div class="japanese">
+
+                <div id="cuisine5" class="cuisine"></div>
+               
+                <div id="cuisine6" class="cuisine"> <br> Japanese cuisine is known for its delicate flavors, beautiful presentation, and emphasis on fresh, seasonal ingredients. </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="end"><br>
+        HAVE A HAPPY MEAL!
+        <br>
+        Make every ocassion special with delicious food.
+    </div>
+</div>
+
+</body>
+
+</html>
